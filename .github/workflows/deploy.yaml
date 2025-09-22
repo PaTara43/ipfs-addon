@@ -31,5 +31,5 @@ jobs:
           args: |
             --all \
             --target ${{ env.ADDON_NAME }} \
-            --docker-hub ghcr.io/pinoutltd \
+            --docker-hub ghcr.io/patara43 \
             --image ${{ env.ADDON_NAME }}-{arch} 
